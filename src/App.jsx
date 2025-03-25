@@ -1,8 +1,8 @@
-
-
+import { useState, useRef } from 'react'
+import { QRCodeSVG } from 'qrcode.react'
+import html2canvas from 'html2canvas'
 import './App.css'
-import { useRef, useState } from 'react'
-import {QRCodeSVG} from 'qrcode.react'
+
 function App() {
   const [userId, setUserId] = useState('')
   const [passName, setPassName] = useState('')
